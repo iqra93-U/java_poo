@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String args[]) {
+		
+		User newuser = new User();
+		Scanner users = new Scanner(System.in);
+		System.out.println("write a first name");
+		String Fname = users.nextLine();
+		System.out.println("write a second name");
+		String Sname = users.nextLine();
+		System.out.println("write your age");
+		String Uage = users.nextLine();
+		
+	}
+
+}

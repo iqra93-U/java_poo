@@ -1,0 +1,26 @@
+package oop;
+
+public class Bateau extends Vehicule implements ActionVehicule {
+	
+	public Bateau() {
+		super("Bateau");
+	}
+
+	@Override
+	public boolean peutRouler() {
+	
+		return (false);
+	}
+
+	@Override
+	public boolean peutVoler() {
+		return (true);
+	}
+
+	@Override
+	public boolean peutNaviguer() {
+	
+		return (false);
+	}
+
+}

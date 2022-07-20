@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main  {
+	public static void main (String args[]) throws CategorieException {
+		
+	
+		Scanner users = new Scanner(System.in);
+		System.out.println("write a first name");
+		String Fname = users.nextLine();
+		System.out.println("write a second name");
+		String Sname = users.nextLine();
+		System.out.println("write your age");
+		int Uage = users.nextInt();
+		User newuser = new User(Fname,Sname,Uage);
+	
+		
+	
+		
+	}
+	public static void CheckCategorie(int Uage, Category cat) throws CategorieException {
+		if (Uage >=0 && Uage<=14) {		
+			throw new CategorieException ("your age is not in category enfants")
+		}
+	}
+}

@@ -1,0 +1,8 @@
+
+public enum Category {
+
+	UNDEFINED,
+	ENFANT,
+	IS_15_TO_17,
+	SENIOR
+}

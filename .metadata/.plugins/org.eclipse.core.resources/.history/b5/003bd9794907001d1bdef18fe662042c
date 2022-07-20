@@ -1,0 +1,7 @@
+
+public class CategorieException extends Exception {
+
+	public CategorieException(String msgException) {
+		super("Error message" + msgException);
+	}
+}

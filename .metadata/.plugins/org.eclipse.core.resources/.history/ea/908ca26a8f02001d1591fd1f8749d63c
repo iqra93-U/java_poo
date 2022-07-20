@@ -1,0 +1,23 @@
+package oop;
+
+public class main {
+	public static void main(String args[]) {
+		Voiture car = new Voiture();
+		System.out.println(car.getName());
+		if(car.peutRouler()) {
+			System.out.print("oui il peux rouler");
+		}
+		if(car.peutVoler()) {
+			System.out.print("oui il peux voler");
+		}
+		if(car.peutNaviguer()) {
+			System.out.print("oui il peux naviguer");
+		}
+		Bateau ship = new Bateau();
+		System.out.println(ship.getName());
+		
+		
+		
+	}
+
+}

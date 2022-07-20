@@ -1,0 +1,8 @@
+
+public class User {
+ public String nom;
+ public String prenom;
+ public int age;
+ public Category cat = Category.UNDEFINED;
+ 
+}

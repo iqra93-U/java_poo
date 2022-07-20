@@ -1,0 +1,15 @@
+package Models;
+
+public class employe {
+
+	public int id ; 
+	public String nom ;
+	public String prenom ;
+	public Double salary_brut ;
+	
+	public employe() {};
+	public employe(int id , String nom, String prenom , Double salary_brut) {};
+	
+	
+	
+}

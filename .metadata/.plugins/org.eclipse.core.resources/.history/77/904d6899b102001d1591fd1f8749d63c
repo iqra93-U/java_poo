@@ -1,0 +1,30 @@
+package Control;
+import Models.*;
+import java.util.Scanner;
+
+public class Main {
+	public static void main (String args[]) {
+	
+		System.out.println ("Lancement de l'application Restaurant");
+		
+		restaurant restaurantTable = new restaurant();
+		employe salarie2 = new employe();
+		employe salarie = new employe();
+		salarie.setNom("Mohammat");
+		salarie2.setNom("Imen");
+		employe[] tabsalarie = new employe[] {
+				salarie,salarie2	
+		};
+		
+		System.out.println("write a name");
+			Scanner input= new Scanner(System.in);
+			String Firstname =  	input.nextLine();
+			
+		System.out.println("write a second name");
+			Scanner input2= new Scanner(System.in);
+			String Lastname =  	input.nextLine();
+		employe salarie3 = new employe(Firstname,Lastname);
+		
+	}
+
+}
